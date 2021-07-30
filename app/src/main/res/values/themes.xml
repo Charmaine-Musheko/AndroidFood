@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodTrackerAndroid" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/beige</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/teal_700</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Overlay.Search" parent="Theme.FoodTrackerAndroid">
+        <!-- Primary brand color. -->
+        <item name="android:editTextColor">@color/beige</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+        <item name="colorAccent">@color/teal_700</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
